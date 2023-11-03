@@ -1,16 +1,18 @@
 .container{
     display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: repeat(7, 1fr);
+    grid-template-columns: 1300px;
+    grid-template-rows: repeat(5, 1fr);
     justify-content: center;
     justify-items: center;
     text-align: center;
+    
     
    
     
 }
 .img-2{
     height: 348.75px;
+    padding-top: 25px;
    
 }
    
@@ -24,7 +26,7 @@ ul{
 .item2{
     background: rgb(30,21,188);
     color: white;
- margin: -20px;
+ margin: -40px;
 }
 .item2 p{
     width: 30%;
@@ -43,14 +45,16 @@ ul{
     padding-bottom: 0%;
 }
 .flexy{
-    display: flex;
+    display: inline-flex;
     justify-content: space-evenly;
     text-align: center;
-    background: rgb(9,7,49);
+    background: rgb(20, 15, 110);
     color: white;
     height: 200px;
     align-items: center;
     border-radius: 10px;
+    margin: 50px;
+    margin-top: -90px;
 
 }
 .flexy h2{
@@ -72,7 +76,42 @@ ul{
     margin-top: 5px;
     border-color: chartreuse;
 }
-.item7{
-    background: black;
-    width: 1320px;
+.item5{
+    background:rgb(82,29,241);
+    
+    color: white;
+    margin-top: 450px;
+    width: 1315px;
+}
+.img-1{
+   
+    padding-bottom: 50px;
+    padding-top: 20px;
+}
+
+.item1 p{
+    padding-top: 20px;
+    padding-bottom: 25px;
+}
+.deep1{
+    border-right: 1px solid gray;
+}
+.deep2{
+    border-right: 1px solid gray;
+}
+.insideviwe1{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-between;
+    text-align: center;
+    color: white;
+    align-items: center;
+    
+
+}
+.item4{
+    background: rgb(82,29,241);
+}
+.inerside1{
+    border-right: 1px solid white;
 }
