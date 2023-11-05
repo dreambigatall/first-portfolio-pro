@@ -59,3 +59,17 @@ a{
     text-decoration: none;
     color: white;
 }
+.collaborated i{
+    font-size: large;
+    height: 25px;
+    width: 24px;
+    padding-right: 20px;
+}
+.collaborated a{
+    font-weight: bold;
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
+}
+.collaborated button:hover{
+    background: rgb(128, 202, 16);
+}
