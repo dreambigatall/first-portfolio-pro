@@ -136,3 +136,31 @@ ul{
 .deep h4{
     color: rgb(21 45 188);
 }
+.logo{
+    display: flex;
+}
+.logo a{
+    margin-left: auto;
+    transform: translate(-110px,30px);
+}
+.logo button{
+    height: 40px;
+    width: 90px;
+    color: rgb(82,21,188);
+    background: white;
+    border:1px solid rgb(82,21,188);
+    transform: scale(1.3);
+    font-weight: bold;
+}
+.logo h1{
+  color: rgb(82,21,188);
+  margin-left: 90px;
+  height: 50px;
+}
+.logo i{
+     transform: scale(2);
+}
+.logo button:hover{
+    background: rgb(82,21,188);
+    color: white;
+}
